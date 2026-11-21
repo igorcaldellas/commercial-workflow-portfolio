@@ -1,0 +1,13 @@
+{
+  "name": "commercial-workflow-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent commercial workflow and analytics portfolio using synthetic data only",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "test": "node tests/sales-model.test.cjs && node tests/public-files.test.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
